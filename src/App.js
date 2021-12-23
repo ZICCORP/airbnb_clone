@@ -99,12 +99,14 @@ function App() {
       </header>
       <main>
 
-        <div>
-          <img src="https://a0.muscache.com/im/pictures/53e51dcb-8fad-4ce8-b61c-8a7a369267bf.jpg?im_w=1200" alt="Background image" />
-          <div>
-            <h1 className="text-3xl">Not sure where to go?&nbsp;Perfect.</h1>
-            <a>
-              <span>I'm flexible</span>
+        <div className="mb-24">
+          <div className="pl-24 pr-24 relative">
+            <img className="rounded-lg" src="https://a0.muscache.com/im/pictures/53e51dcb-8fad-4ce8-b61c-8a7a369267bf.jpg?im_w=1200" alt="Background image" />
+          </div>
+          <div className=" absolute w-full py-4 bottom-0 text-center">
+            <h1 className="text-4xl pb-8">Not sure where to go?&nbsp;Perfect.</h1>
+            <a className="pt-6 block" href="#">
+              <span className="bg-white w-24 text-purple-500 p-4 rounded-full">I'm flexible</span>
             </a>
           </div>
         </div>

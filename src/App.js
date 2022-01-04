@@ -2,6 +2,7 @@
 
 function App() {
   return <>
+
     <div className="bg-black text-white font-mono">
       <header className="text-sm">
         <div className="flex justify-between pt-8 pb-4">
@@ -99,7 +100,7 @@ function App() {
       </header>
       <main>
 
-        <div className="mb-24">
+        <div className="mb-32">
           <div className="pl-24 pr-24 relative">
             <img className="rounded-lg" src="https://a0.muscache.com/im/pictures/53e51dcb-8fad-4ce8-b61c-8a7a369267bf.jpg?im_w=1200" alt="Background image" />
           </div>
@@ -112,382 +113,352 @@ function App() {
         </div>
 
         <div>
-          <img src="https://a0.muscache.com/im/pictures/931d5140-30cd-4f96-a73a-cb31c76029a4.jpg?im_q=highq&amp;im_w=1920" alt="gift card" />
-          <div>
+          <div className="pl-24 pr-24 -mb-56  relative">
+            <img className="rounded-lg" src="https://a0.muscache.com/im/pictures/931d5140-30cd-4f96-a73a-cb31c76029a4.jpg?im_q=highq&amp;im_w=1920" alt="gift card" />
+          </div>
+          <div className="absolute w-full -bottom-72 pl-64 -mb-64 text-black">
             <div>
-              <span>Introducing</span>
+              <span className="pl-16 text-2xl">Introducing</span>
             </div>
-            <h2 className="text-5xl">
-              <span>Airbnb</span>
-              <span> Gift Cards</span>
+            <h2 className="text-7xl pb-12">
+              <span className="pl-8 block">Airbnb</span>
+              <span className=""> gift</span>
+              <span className="-ml-6"> cards</span>
             </h2>
-            <div>
+            <div className="pl-24">
               <a>
-                <span>Shop now</span>
+                <span className="bg-black text-white rounded-lg py-4 px-6">Shop now</span>
               </a>
             </div>
           </div>
         </div>
 
-        <div>
-          <h2 className="text-3xl">Inspiration for your next&nbsp;trip</h2>
-          <div>
+        <div className="bg-white">
+
+          <div className="pt-72 pl-24 pr-24">
 
             <div>
-              <a href="#">
+
+              <div className="py-12">
+                <h2 className="text-4xl text-gray-800 font-bold">Discover Airbnb Experiences</h2>
+              </div>
+
+              <div className="grid grid-cols-2 gap-10 pb-72">
                 <div>
-                  <img src="https://a0.muscache.com/im/pictures/ee86b8d6-b214-43f5-912c-3db2637a5724.jpg?im_w=480" alt="location" />
-                </div>
-                <div>
-                  <span className="text-3xl">Abuja</span>
-                </div>
-                <div>
-                  <span>122 kilometers&nbsp;away</span>
-                </div>
-              </a>
-            </div>
-
-            <div>
-              <a href="#">
-                <div>
-                  <img src="https://a0.muscache.com/im/pictures/ee86b8d6-b214-43f5-912c-3db2637a5724.jpg?im_w=480" alt="location" />
-                </div>
-                <div>
-                  <span className="text-3xl">Enugu</span>
-                </div>
-                <div>
-                  <span>397 kilometers&nbsp;away</span>
-                </div>
-              </a>
-            </div>
-
-            <div>
-              <a href="#">
-                <div>
-                  <img src="https://a0.muscache.com/im/pictures/ee86b8d6-b214-43f5-912c-3db2637a5724.jpg?im_w=480" alt="location" />
-                </div>
-                <div>
-                  <span className="text-3xl">Asaba</span>
-                </div>
-                <div>
-                  <span>446 kilometers&nbsp;away</span>
-                </div>
-              </a>
-            </div>
-
-            <div>
-              <a href="#">
-                <div>
-                  <img src="https://a0.muscache.com/im/pictures/ee86b8d6-b214-43f5-912c-3db2637a5724.jpg?im_w=480" alt="location" />
-                </div>
-                <div>
-                  <span className="text-3xl">Kaduna</span>
-                </div>
-                <div>
-                  <span>85 kilometers&nbsp;away</span>
-                </div>
-              </a>
-            </div>
-
-
-          </div>
-        </div>
-
-        <div>
-          <h2>Discover Airbnb Experiences</h2>
-
-          <div>
-            <div>
-              <img src="https://a0.muscache.com/im/pictures/b2f98185-f3bf-40db-ba8d-da0bceeccc65.jpg?im_w=960" alt="experience" />
-            </div>
-            <div>
-              <h3>Things to do on your&nbsp;trip</h3>
-              <span>
-                <a href="#">
-                  Experiences
-                </a>
-              </span>
-            </div>
-          </div>
-
-          <div>
-            <div>
-              <img src="https://a0.muscache.com/im/pictures/cae7ae9a-d069-4c6a-9267-795643472df1.jpg?im_w=960" alt="experience" />
-            </div>
-            <div>
-              <h3>Things to do from&nbsp;home</h3>
-              <span>
-                <a href="#">
-                  Online Experiences
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-
-
-        <div>
-          <h2>Inspiration for future getaways</h2>
-
-          <div>
-            <button>
-              Destinations for outdoor adventure
-            </button>
-            <button>
-              Mountain Cabins
-            </button>
-            <button>
-              Beach Destination
-            </button>
-            <button>
-              Popular Destinations
-            </button>
-            <button>
-              Unique Destination
-            </button>
-          </div>
-        </div>
-
-        <div>
-          <div>
-            <a href="#">
-              <div>Phoenix</div>
-              <div>Arizona</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Hot Springs</div>
-              <div>Arkansas</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Los Angeles</div>
-              <div>Carlifornia</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>San Diego</div>
-              <div>Carlifornia</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>San Francisco</div>
-              <div>Carlifornia</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Barcelona</div>
-              <div>catalonia</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Prague</div>
-              <div>CZechia</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Washington</div>
-              <div>District of Columbia</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Keswick</div>
-              <div>England</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>London</div>
-              <div>England</div>
-            </a>
-          </div>
-
-          <div>
-            <a href="#">
-              <div>Scarborough</div>
-              <div>England</div>
-            </a>
-          </div>
-
-          <div>
-            <button>Show more</button>
-          </div>
-
-
-        </div>
-
-
-        <div>
-
-          <footer>
-            <div>
-              <section>
-                <h3>Support</h3>
-                <ul>
-                  <li>
-                    <a>Help Center</a>
-                  </li>
-                  <li>
-                    <a>Safety Information</a>
-                  </li>
-                  <li>
-                    <a>Cancellation options</a>
-                  </li>
-                  <li>
-                    <a>Our COVID-19 Response</a>
-                  </li>
-                  <li>
-                    <a>Supporting people with disabilities</a>
-                  </li>
-                  <li>
-                    <a>Report a neigbourhood concern</a>
-                  </li>
-                </ul>
-              </section>
-
-              <section>
-                <h3>Community</h3>
-                <ul>
-                  <li>
-                    <a>Airbnb.org: disaster relief housing</a>
-                  </li>
-                  <li>
-                    <a>Support Afghan refugees</a>
-                  </li>
-                  <li>
-                    <a>Celebrating diversity &amp; belonging </a>
-                  </li>
-                  <li>
-                    <a>Combating discrimination</a>
-                  </li>
-                </ul>
-              </section>
-
-              <section>
-                <h3>Hosting</h3>
-                <ul>
-                  <li>
-                    <a>Try hosting</a>
-                  </li>
-                  <li>
-                    <a>Aircover: protection for Hosts</a>
-                  </li>
-                  <li>
-                    <a>Visit our community forum</a>
-                  </li>
-                  <li>
-                    <a>How to host responsibly</a>
-                  </li>
-                </ul>
-              </section>
-
-              <section>
-                <h3>About</h3>
-                <ul>
-                  <li>
-                    <a>Newsroom</a>
-                  </li>
-                  <li>
-                    <a>Learn about new features</a>
-                  </li>
-                  <li>
-                    <a>Letter from our founders</a>
-                  </li>
-                  <li>
-                    <a>Careers</a>
-                  </li>
-                  <li>
-                    <a>Investors</a>
-                  </li>
-                  <li>
-                    <a>Airbnb Luxe</a>
-                  </li>
-                </ul>
-              </section>
-            </div>
-
-            <div>
-              <section>
-
-                <div>
-                  <div>@ 2021 Airbnb, Inc.</div>
-                  <div>
-                    <span>.</span>
-                    <a href="#">Privacy</a>
-                    <span>.</span>
-                    <a href="#">Terms</a>
-                    <span>.</span>
-                    <a href="#">Sitemap</a>
+                  <div className="relative  -mb-36">
+                    <img className="rounded-lg" src="https://a0.muscache.com/im/pictures/b2f98185-f3bf-40db-ba8d-da0bceeccc65.jpg?im_w=960" alt="experience" />
                   </div>
-                </div>
-                <div>
-
-                  <div>
-                    <span>
-                      <span><button>Choose a button</button></span>
-                    </span>
-
-                    <span>
-                      <button>
-                        <span>Choose a currency</span>
-                        <span>$</span>
-                        <span>USD</span>
-                      </button>
+                  <div className="text-white absolute w-full -mt-96 left-36 text-4xl font-bold">
+                    <div className="mb-8">
+                      <h3 >Things to do </h3>
+                      <h3>on your trip</h3>
+                    </div>
+                    <span className="bg-white rounded-lg px-6 pb-2">
+                      <a href="#" className="text-lg text-gray-800">
+                        Experiences
+                      </a>
                     </span>
                   </div>
+                </div>
 
-                  <div>
-                    <ul>
+                <div>
+                  <div className="relative -mb-36">
+                    <img className="rounded-lg" src="https://a0.muscache.com/im/pictures/cae7ae9a-d069-4c6a-9267-795643472df1.jpg?im_w=960" alt="experience" />
+                  </div>
+                  <div className="text-white absolute -mt-96 pl-12 text-4xl font-bold">
+                    <div className="mb-8">
+                      <h3 className="">Things to do</h3>
+                      <h3> from home</h3>
+                    </div>
+                    <span className="bg-white rounded-lg px-6 pb-2">
+                      <a className="text-lg text-gray-800" href="#">
+                        Online Experiences
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                      <li>
-                        <a href="#">
+
+
+          </div>
+        </div>
+
+
+
+        <div className="bg-white">
+
+          <div className="bg-white text-gray-800 font-semibold border-b-2 ml-12 mr-12 text-sm">
+            <h2 className="text-2xl font-bold pb-3">Inspiration for future getaways</h2>
+
+            <div className="flex justify-between">
+              <div>
+                <a href="#" className="">Destination for art &amp; culture</a>
+                <div className="border-b-2 w-58 -ml-18 pb-5 border-black"></div>
+              </div>
+              <button className='text-gray-800 pb-5'>
+                <span>Destination for outdoor</span>
+                <span> adventure</span>
+              </button>
+              <button className='text-gray-800 pb-5'>
+                Mountain Cabins
+              </button>
+              <button className="text-gray-800 pb-5">
+                Beach Destination
+              </button>
+              <button className="text-gray-800 pb-5">
+                Popular Destinations
+              </button>
+              <button className="pr-24 text-gray-800 pb-5">
+                Unique Destination
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white pt-8">
+          <div className="bg-white text-black ml-12 mr-12 flex justify-between">
+            <div className="pb-2">
+              <div>
+                <a href="#">
+                  <div>Phoenix</div>
+                  <div className="text-gray-600">Arizona</div>
+                </a>
+              </div>
+
+              <div className="pt-4">
+                <a href="#">
+                  <div>San Francisco</div>
+                  <div className="text-gray-600">California</div>
+                </a>
+              </div>
+
+              <div>
+                <a href="#" className="-ml-12">
+                  <div>Keswick</div>
+                  <div className="text-gray-600">England</div>
+                </a>
+              </div>
+            </div>
+            <div className="pb-2">
+              <div>
+                <a href="#">
+                  <div>Hot Spring</div>
+                  <div className="text-gray-600">Arkansas</div>
+                </a>
+              </div>
+
+              <div className="pt-4">
+                <a href="#">
+                  <div>Barcelona</div>
+                  <div className="text-gray-600">catalonia</div>
+                </a>
+              </div>
+
+              <div >
+                <a className="ml-12" href="#">
+                  <div>London</div>
+                  <div className="text-gray-600">England</div>
+                </a>
+              </div>
+
+            </div>
+            <div className="pb-2">
+              <div>
+                <a href="#">
+                  <div>Los Angeles</div>
+                  <div className="text-gray-600">California</div>
+                </a>
+              </div>
+
+              <div className="pt-4">
+                <a href="#">
+                  <div>Prague</div>
+                  <div className="text-gray-600">Czechia</div>
+                </a>
+              </div>
+
+              <div className="pt-6">
+                <a href="#">
+                  <div>Scarborough</div>
+                  <div className="text-gray-600">England</div>
+                </a>
+              </div>
+            </div>
+            <div className="pb-2">
+              <div>
+                <a href="#">
+                  <div>San Diego</div>
+                  <div className="text-gray-600">California</div>
+                </a>
+              </div>
+
+              <div className="pt-4">
+                <a href="#">
+                  <div>Washington</div>
+                  <div className="text-gray-600">District of Columbia</div>
+                </a>
+              </div>
+
+
+              <div className="pt-6">
+                <button className="underline">Show more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-gray-100 text-gray-800">
+          <div className="ml-12 mr-12">
+            <footer className="pt-24">
+              <div className="flex justify-between">
+                <section>
+                  <h3 className="font-bold">Support</h3>
+                  <ul>
+                    <li className="pb-4 pt-4">
+                      <a>Help Center</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Safety Information</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Cancellation options</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Our COVID-19 Response</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Supporting people with disabilities</a>
+                    </li>
+                    <li className="pb-12">
+                      <a>Report a neigbourhood concern</a>
+                    </li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3 className="font-bold">Community</h3>
+                  <ul>
+                    <li className="pb-4 pt-4">
+                      <a>Airbnb.org: disaster relief housing</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Support Afghan refugees</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Celebrating diversity &amp; belonging </a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Combating discrimination</a>
+                    </li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3 className="font-bold">Hosting</h3>
+                  <ul>
+                    <li className="pb-4 pt-4">
+                      <a>Try hosting</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Aircover: protection for Hosts</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Visit our community forum</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>How to host responsibly</a>
+                    </li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3 className="font-bold">About</h3>
+                  <ul>
+                    <li className="pb-4 pt-4">
+                      <a>Newsroom</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Learn about new features</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Letter from our founders</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Careers</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Investors</a>
+                    </li>
+                    <li className="pb-4">
+                      <a>Airbnb Luxe</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+
+              <div>
+                <section className="flex justify-between">
+
+                  <div className="flex justify-between">
+                    <div>© 2022 Airbnb, Inc.</div>
+                    <div>
+                      <span className="px-2">.</span>
+                      <a href="#">Privacy</a>
+                      <span className="px-2">.</span>
+                      <a href="#">Terms</a>
+                      <span className="px-2">.</span>
+                      <a href="#">Sitemap</a>
+                    </div>
+                  </div>
+                  <div className="flex justify-between">
+
+                    <div className="flex justify-between">
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                      </svg>
+                      <p className="px-12 underline">English(US)</p>
+                      <p>$</p>
+                      <p className="pr-12 underline">USD</p>
+
+                    </div>
+
+
+                    <div className="flex justify-between">
+
+                      <div className="-mt-6">
+                        <a href="#" className="px-12">
                           <svg viewBox="0 0 32 32" role="img" aria-hidden="false" aria-label="Navigate to Facebook" focusable="false" style={{ height: "18px", width: "18px", display: "block", fill: "currentcolor" }}><path d="m8 14.41v-4.17c0-.42.35-.81.77-.81h2.52v-2.08c0-4.84 2.48-7.31 7.42-7.35 1.65 0 3.22.21 4.69.64.46.14.63.42.6.88l-.56 4.06c-.04.18-.14.35-.32.53-.21.11-.42.18-.63.14-.88-.25-1.78-.35-2.8-.35-1.4 0-1.61.28-1.61 1.73v1.8h4.52c.42 0 .81.42.81.88l-.35 4.17c0 .42-.35.71-.77.71h-4.21v16c0 .42-.35.81-.77.81h-5.21c-.42 0-.8-.39-.8-.81v-16h-2.52a.78.78 0 0 1 -.78-.78" fill-rule="evenodd"></path></svg>
                         </a>
-                      </li>
+                      </div>
 
-                      <li>
-                        <a href="#">
+                      <div className="-mt-6">
+                        <a href="#" className="px-12">
                           <svg viewBox="0 0 32 32" role="img" aria-hidden="false" aria-label="Navigate to Twitter" focusable="false" style={{ height: "18px", width: "18px", display: "block", fill: "currentcolor" }}><path d="m31 6.36c-1.16.49-2.32.82-3.55.95 1.29-.76 2.22-1.87 2.72-3.38a13.05 13.05 0 0 1 -3.91 1.51c-1.23-1.28-2.75-1.94-4.51-1.94-3.41 0-6.17 2.73-6.17 6.12 0 .49.07.95.17 1.38-4.94-.23-9.51-2.6-12.66-6.38-.56.95-.86 1.97-.86 3.09 0 2.07 1.03 3.91 2.75 5.06-1-.03-1.92-.3-2.82-.76v.07c0 2.89 2.12 5.42 4.94 5.98-.63.17-1.16.23-1.62.23-.3 0-.7-.03-1.13-.13a6.07 6.07 0 0 0 5.74 4.24c-2.22 1.74-4.78 2.63-7.66 2.63-.56 0-1.06-.03-1.43-.1 2.85 1.84 6 2.76 9.41 2.76 7.29 0 12.83-4.01 15.51-9.3 1.36-2.66 2.02-5.36 2.02-8.09v-.46c-.03-.17-.03-.3-.03-.33a12.66 12.66 0 0 0 3.09-3.16" fill-rule="evenodd"></path></svg>
                         </a>
-                      </li>
+                      </div>
 
-                      <li>
-                        <a href="#">
+                      <div>
+                        <a href="#" className="pr-12">
                           <svg viewBox="0 0 24 24" role="img" aria-hidden="false" aria-label="Navigate to Instagram" focusable="false" style={{ height: "18px", width: "18px", display: "block", fill: "currentcolor" }}><path d="m23.09.91c-.61-.61-1.33-.91-2.17-.91h-17.84c-.85 0-1.57.3-2.17.91s-.91 1.33-.91 2.17v17.84c0 .85.3 1.57.91 2.17s1.33.91 2.17.91h17.84c.85 0 1.57-.3 2.17-.91s.91-1.33.91-2.17v-17.84c0-.85-.3-1.57-.91-2.17zm-14.48 7.74c.94-.91 2.08-1.37 3.4-1.37 1.33 0 2.47.46 3.41 1.37s1.41 2.01 1.41 3.3-.47 2.39-1.41 3.3-2.08 1.37-3.41 1.37c-1.32 0-2.46-.46-3.4-1.37s-1.41-2.01-1.41-3.3.47-2.39 1.41-3.3zm12.66 11.63c0 .27-.09.5-.28.68a.92.92 0 0 1 -.67.28h-16.7a.93.93 0 0 1 -.68-.28.92.92 0 0 1 -.27-.68v-10.13h2.2a6.74 6.74 0 0 0 -.31 2.05c0 2 .73 3.71 2.19 5.12s3.21 2.12 5.27 2.12a7.5 7.5 0 0 0 3.75-.97 7.29 7.29 0 0 0 2.72-2.63 6.93 6.93 0 0 0 1-3.63c0-.71-.11-1.39-.31-2.05h2.11v10.12zm0-13.95c0 .3-.11.56-.31.77a1.05 1.05 0 0 1 -.77.31h-2.72c-.3 0-.56-.11-.77-.31a1.05 1.05 0 0 1 -.31-.77v-2.58c0-.29.11-.54.31-.76s.47-.32.77-.32h2.72c.3 0 .56.11.77.32s.31.47.31.76z" fill-rule="evenodd"></path></svg>
                         </a>
-                      </li>
+                      </div>
 
-                    </ul>
+                    </div>
+
+
+
+
 
 
                   </div>
 
-
-
-                </div>
-
-              </section>
-            </div>
-          </footer>
-
+                </section>
+              </div>
+            </footer>
+          </div>
         </div>
+
       </main>
 
     </div>
